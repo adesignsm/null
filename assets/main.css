@@ -1,0 +1,44 @@
+body, html {
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica, sans-serif;
+}
+
+#wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+#intro-blurb {
+	padding: 3%;
+}
+
+#intro-blurb h1 {
+	font-size: 300%;
+	letter-spacing: -2px;
+}
+
+#intro-image-container {
+	margin-top: 2%;
+}
+
+#intro-image-container img {
+	position: absolute;
+	width: 25%;
+	cursor: pointer;
+}
+
+#intro-blurb span {
+	cursor: pointer;
+	font-weight: bolder;
+	opacity: .7;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-ms-transition: .3s ease;
+	-o-transituion: .3s ease;
+	transition: .3s ease;
+}
+
+#intro-blurb span:hover {
+	opacity: 1;
+}
